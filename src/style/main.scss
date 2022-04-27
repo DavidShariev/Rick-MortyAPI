@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    padding-left: 100px;
+    background-color: #E1E1E1;
+    max-height: 100vh;
+    overflow: hidden;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    font-family: 'Monsterrat', sans-serif!important;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+}
+
+button{
+    cursor: pointer;
+}
+
+h1, h2, h3, h4{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    margin: 0;
+    padding: 0
+}
+h1{
+    font-size: 48px;
+}
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 32px;
+}
+h4{
+    font-size: 20px;
+}
+p{
+    font-family: Montserrat Alternates;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+}

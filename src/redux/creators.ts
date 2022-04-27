@@ -107,6 +107,7 @@ export const getActiveData = (id: number, type: setActiveTypes) => {
                 `https://rickandmortyapi.com/api/location/${id}`,
                 `https://rickandmortyapi.com/api/episode/${id}`
             ][methodId];
+        console.log(address);
         const setActiveMethod = // определения actionCreator'a
             [
                 setActiveCharacter,
@@ -128,7 +129,7 @@ export const getActiveData = (id: number, type: setActiveTypes) => {
             .then(
                 (json) => {
                     const activeElement = json;
-
+                    console.log(activeElement)
                     const datas: ICharacter[] | IEpisode[] | ILocation[] = [] //массив конкретных данных: для героя - эпизоды в которых он учавствал, для локации - резиденты, для эпизода - герои
                     
                     //заметка: ошибка при неудачном обращение к серверу

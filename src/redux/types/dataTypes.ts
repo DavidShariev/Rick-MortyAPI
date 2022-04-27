@@ -58,3 +58,4 @@ export interface IEpisodesInfo{ //инф. о пулле эпизодов
     next: string | null,
     prev: string | null
 }
+export type listElementType = ICharacter | ILocation | IEpisode;

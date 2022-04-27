@@ -1,0 +1,64 @@
+.sidebar{
+    width: 80px;
+    height: 100%;
+    
+    position: fixed;
+    left: 0;
+    top: 0;
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 30px 20px;
+    background-color: #fff;
+
+    &__title{
+        transform: rotate(-90deg);
+        padding-right: 210px;
+    }
+    &__github{
+        width: 40px;
+        height: 40px;
+    }
+
+    z-index: 999;
+}
+
+.sidebar--full{
+    width: 400px;
+
+    .sidebar__title{
+        transform: rotate(0);
+        padding-right: 0;
+        align-self: start;
+    }
+    .sidebar__links{
+        a{
+            display: block;
+            margin-bottom: 50px;
+        }
+        .sidebar__links-link--active{
+            text-decoration: underline!important;
+        }
+        h2:last-child{
+            padding-bottom: 0px;
+        }
+    }
+    .sidebar__github_link{
+        align-self: start;
+        font-family: Montserrat Alternates;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 24px;
+        text-decoration: underline;
+
+        display: flex;
+        align-items: center;
+
+        img{
+            margin-right: 20px;
+        }
+    }
+}

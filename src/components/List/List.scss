@@ -1,0 +1,51 @@
+
+.listPage{
+    height: 100vh;
+    position: relative;
+    padding-top: 40px;
+
+    &__title{
+        width: 1240px;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+
+        &-out{
+            display: flex;
+            align-items: center;
+
+
+        }
+    }
+
+    &__list{
+        width: 1240px;
+        position: absolute;
+        bottom: 60px;;
+        height: 80vh;
+        padding-right: 25px;
+        padding-bottom: 40px;
+        overflow-y: scroll;
+        overflow-x: hidden;
+
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    &__nav {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin-top: 40px;
+        align-items: center;
+
+        button{
+            padding: 10px 25px;
+            font-size: 24px;
+            font-weight: 600;
+            border: 2px solid black;
+            border-radius: 10px;
+        }
+    }
+}

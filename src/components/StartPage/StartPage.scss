@@ -1,0 +1,43 @@
+
+
+.startPage{
+    width: 100%;
+    position: relative;
+
+    &__text{
+        position: absolute;
+        top: 50vh;
+        left: 10vw;
+        transform: translateY(-50%);
+
+        &-title{
+            font-size: 64px;
+            font-weight: 800;
+        }
+        &-technologies{
+            font-size: 20px;
+            font-weight: 600;
+        }
+        &-quote{
+            max-width: 700px;
+            margin: 40px 0 50px;
+            font-size: 32px;
+            line-height: 40px;
+        }
+        &-continue{
+            font-size: 20px;
+            text-decoration: underline;
+            
+        }
+        
+    }
+    &__image{
+        width: 700px;
+        position: absolute;
+        right: 10vw;
+        top: 50vh;
+        transform: translateY(-50%);
+
+        z-index: -1;
+    }
+}
