@@ -13,7 +13,9 @@ const Sidebar = () => {
       <div className="sidebar">
         
         <h3 className="sidebar__title">Rick&MortyAPI</h3>
-        <img className="sidebar__github" src={githubLogo} alt=""></img>
+        <a className="sidebar__github_link" href="https://github.com/DavidShariev">
+          <img className="sidebar__github" src={githubLogo} alt=""></img>
+        </a>
       </div> 
     );
   }else{
@@ -41,10 +43,10 @@ const Sidebar = () => {
           </NavLink>
 
         </div>
-        <div className="sidebar__github_link">
+        <a className="sidebar__github_link" href="https://github.com/DavidShariev">
           <img className="sidebar__github" src={githubLogo} alt=""></img>
           My GitHub
-        </div>
+        </a>
       </div>
     )
   }
