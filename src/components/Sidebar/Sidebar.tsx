@@ -15,6 +15,7 @@ const Sidebar = () => {
         <h3 className="sidebar__title">Rick&MortyAPI</h3>
         <a className="sidebar__github_link" href="https://github.com/DavidShariev">
           <img className="sidebar__github" src={githubLogo} alt=""></img>
+
         </a>
       </div> 
     );
